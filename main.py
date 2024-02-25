@@ -9,7 +9,7 @@ from web_functions import load_data
 
 # Configure the app
 st.set_page_config(
-    page_title = 'Parkinson\'s Disease Prediction',
+    page_title = 'Parkinson\'s Disease Detection',
     page_icon = 'raised_hand_with_fingers_splayed',
     layout = 'wide',
     initial_sidebar_state = 'auto'
@@ -27,7 +27,9 @@ Tabs = {
     "Prediction": predict,
     "Visualisation": visualise
     
+    
 }
+
 
 # Create a sidebar
 # Add title to sidear
@@ -35,6 +37,7 @@ st.sidebar.title("Navigation")
 
 # Create radio option to select the page
 page = st.sidebar.radio("Pages", list(Tabs.keys()))
+
 
 # Loading the dataset.
 df, X, y = load_data()
@@ -46,3 +49,4 @@ elif (page == "Data Info"):
     Tabs[page].app(df)
 else:
     Tabs[page].app()
+

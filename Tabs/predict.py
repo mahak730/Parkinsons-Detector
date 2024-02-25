@@ -27,7 +27,7 @@ def app(df, X, y):
     st.markdown(
         """
             <p style="font-size:25px">
-                This app uses <b style="color:green">Random Forest Classifier</b> for the Prediction of Parkinson's disease.
+                This app uses <b style="color:green">Random Forest Algorithm</b> for the Prediction of Parkinson's disease.
             </p>
         """, unsafe_allow_html=True)
     with st.expander("View attribute details"):
@@ -114,5 +114,3 @@ spread1,spread2,PPE - Three nonlinear measures of fundamental frequency variatio
                 st.warning("But, there is a risk of vocal trembling or Secondary PD")
 
 
-        # Print teh score of the model 
-        st.sidebar.write("The model used is trusted by doctor and has an accuracy of ", round((score*100),2),"%")
