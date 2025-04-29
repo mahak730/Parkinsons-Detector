@@ -27,7 +27,7 @@ def app(df, X, y):
     st.markdown(
         """
             <p style="font-size:25px">
-                This app uses <b style="color:green">Random Forest Algorithm</b> for the Prediction of Parkinson's disease.
+                This app uses <b style="color:green">SVM</b> for the Prediction of Parkinson's disease.
             </p>
         """, unsafe_allow_html=True)
     with st.expander("View attribute details"):
