@@ -1,4 +1,4 @@
-### Primordial Parkinson's Disease Detection
+###  Parkinson's Disease Prediction using Svm
 
 ![home](https://user-images.githubusercontent.com/64016811/198979528-deb039b2-abde-49a8-9a2a-832a8c1eb19d.png)
 
@@ -38,4 +38,4 @@ This Web app will help you to predict whether a person has chances of parkinson'
 ![image](https://user-images.githubusercontent.com/64016811/198981964-64c397d9-aeed-45ff-ac3a-ed96e8c3059e.png)
 
 
-This website is created by Badhrinath Ravichandran
+This website is created by Mahak
